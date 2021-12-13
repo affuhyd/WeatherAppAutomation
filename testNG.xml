@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="WeatherSuite" verbose="1">
+	<!-- <listeners> <listener class-name="main.java.Listeners.ExtentReporterNG" 
+		/> </listeners> -->
+	<test name="WeatherTests">
+		<classes>
+			<class name="src.java.TestCases.ComparatorTest" />
+		</classes>
+	</test>
+</suite>
